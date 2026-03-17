@@ -21,9 +21,9 @@ Both approaches are implemented in Python and solved using the Gurobi solver.
 
 - `AmaralWeightedSum.py` – Python code implementing the weighted-sum approach.  
 - `AmaralEpsilonConstraint.py` – Python code implementing the epsilon-constraint approach.  
-- `data/` – Input instance files for benchmart instances and random generated instances with different numbers of departments, densities, flow ranges, and lengths.
+- `data/intance` – Input instance files for benchmart instances and random generated instances with different numbers of departments, densities, flow ranges, and lengths.
 - Files for second objectives are named by adding `_1` to the end of fisrt objective files.
-- Includes the two sets used for the sensitivity analysis. 
+- `data/SA-set1/` and `data/SA-set2/ includes the two sets used for the sensitivity analysis . 
 - `output_tables/` – LaTeX tables generated from the computations. These include detailed results for all instances; due to the large number of tables (108 in total),
    they are provided here for readers interested in the full dataset.  
 
